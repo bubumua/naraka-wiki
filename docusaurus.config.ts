@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: '永劫无间 Wiki',
+  tagline: '武器、英雄、魂玉与战斗机制资料库',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -78,15 +78,16 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/naraka/hero-share.jpg',
     colorMode: {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: '永劫无间 Wiki',
+      title: 'Wiki',
       logo: {
-        alt: '永劫无间 Wiki Logo',
-        src: 'img/logo.svg',
+        alt: 'NARAKA: BLADEPOINT Logo',
+        src: 'img/naraka/logo-dark.png',
+        srcDark: 'img/naraka/logo-light.png',
       },
       items: [
         // {
