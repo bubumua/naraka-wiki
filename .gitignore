@@ -21,3 +21,4 @@ yarn-error.log*
 
 AI Agent settings
 .claude/
+.obsidian/
