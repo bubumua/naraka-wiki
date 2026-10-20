@@ -39,7 +39,7 @@ const navCards: NavCard[] = [
   },
   {
     title: '英雄与技能',
-    to: '/docs/heroes/ninghongye',
+    to: '/docs/heroes/宁红夜',
     eyebrow: 'Heroes',
     description: '围绕英雄定位、技能节奏和奥义思路整理人物入口。',
   },
@@ -66,7 +66,7 @@ const recommendedReads: NavCard[] = [
   },
   {
     title: '控制与键位',
-    to: '/docs/control/control',
+    to: '/docs/control/',
     eyebrow: 'Control',
     description: '把操作层和机制层拆开整理，适合回查基础动作。',
   },
